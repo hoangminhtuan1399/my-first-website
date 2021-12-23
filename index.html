@@ -2,8 +2,14 @@
   <head>
     <title>Table</title>
     <style>
-      table, th, td{
+      table,
+      th,
+      td {
         border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse;
+        caption-side: bottom;
       }
     </style>
   </head>
@@ -33,10 +39,13 @@
       </tbody>
       <tfoot>
         <tr>
-        <td></td>
-        <td>Total Points</td>
-        <td>160510</td></tr>
+          <td colspan="2">Total Points</td>
+          <td>160510</td>
+        </tr>
       </tfoot>
+      <caption>
+        Ranking Table
+      </caption>
     </table>
   </body>
 </html>
