@@ -1,13 +1,18 @@
 <html>
   <head>
     <title>Table</title>
+    <style>
+      table, th, td{
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
-    <table>
+    <table style="border: 1px solid black">
       <thead>
         <tr>
           <th>Rank</th>
-          <th>Name</th>
+          <th style="width: 100px">Name</th>
           <th>Points</th>
           <th>Team</th>
         </tr>
@@ -26,6 +31,12 @@
           <td>students</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+        <td></td>
+        <td>Total Points</td>
+        <td>160510</td></tr>
+      </tfoot>
     </table>
   </body>
 </html>
