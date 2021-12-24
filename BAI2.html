@@ -2,23 +2,27 @@
   <head>
     <title>HTML Project</title>
     <style>
-    a {
-    text-decoration: none;
-    color: black;
+      a {
+        text-decoration: none;
+        color: black;
       }
     </style>
   </head>
   <body>
-    <table id="header" cellspacing="0">
+    <table id="header" cellspacing="0" cellpadding="0">
       <!-- Start header -->
       <tr height="70px" style="background-color: green">
         <th style="width:30vw; font-family: Comic sans MS; font-size: 30">
           MINDX
         </th>
         <th>|</th>
-        <th style="width:10vw; font-family: Verdana; font-size: 23;"><a href="#home">Home</a></th>
+        <th style="width:10vw; font-family: Verdana; font-size: 23;">
+          <a href="#home">Home</a>
+        </th>
         <th>|</th>
-        <th style="width:10vw; font-family: Verdana; font-size: 23"><a href="#about">About</a></th>
+        <th style="width:10vw; font-family: Verdana; font-size: 23">
+          <a href="#about">About</a>
+        </th>
         <th>|</th>
         <th style="width:15vw; font-family: Verdana; font-size: 23">
           <a href="#projects">Projects</a>
@@ -35,12 +39,20 @@
       <!-- End header -->
       <!-- Start Hi MINDX -->
       <tr id="home" height="100" style="background-color: black">
-        <td colspan="11" style="text-align: center; color: white; font-family: Times New Roman; font-size: 25">Hi MINDX!</td>
+        <td
+          colspan="11"
+          style="text-align: center; color: white; font-family: Times New Roman; font-size: 25"
+        >
+          Hi MINDX!
+        </td>
       </tr>
       <!-- End Hi MINDX -->
       <!-- Start About me -->
-      <tr id="about">
-        <td colspan="11" style="text-align: center">About Me</td>
+      <tr>
+        <td colspan="11">
+          <table>
+      <tr id="about" height="120" style="background-color: black">
+        <td colspan="11" style="text-align: center; color: green; font-family: Verdana; font-size: 32">About Me</td>
       </tr>
       <tr>
         <td colspan="3">
