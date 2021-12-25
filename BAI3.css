@@ -18,6 +18,10 @@ h1, p {
   font-family: cursive;
 }
 
+a:hover {
+  color: #0b7327;
+}
+
 a[href="https://www.nationalgeographic.com/travel/destination/florence"] {
-  font-style: italic;
+  font-style: none;
 }
