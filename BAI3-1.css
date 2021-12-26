@@ -1,4 +1,9 @@
 * {
   font-family: Verdana;
-  
+}
+#article {
+  font-size: 30;
+  color: #7a0224;
+  background-color: #ffb8cc;
+  border-top: 3px double #7a0224;
 }
