@@ -19,6 +19,22 @@ img {
   width: 100%;
 }
 
+em {
+  background-color: #d3aef2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  height: 50px;
+  width: 100px;
+  background-color: #030980;
+  padding: 10% 20%;
+}
+
 .container {
   margin-left: 20%;
   margin-right: 20%;
