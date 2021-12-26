@@ -16,6 +16,14 @@
   padding-left: 15px;
 }
 
+#container {
+  box-sizing: border-box;
+  width: 400;
+  height: 160
+  border: 1px solid #242ba6;
+  
+}
+
 .small-text {
   font-size: 15;
 }
