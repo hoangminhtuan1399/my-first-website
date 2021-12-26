@@ -1,6 +1,7 @@
 * {
   font-family: Verdana;
 }
+
 #article {
   box-sizing: border-box;
   width: 500;
@@ -13,4 +14,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 15px;
+}
+
+.small-text {
+  font-size: 15;
+}
+
+.red-text {
+  color: red;
 }
