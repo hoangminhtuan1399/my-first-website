@@ -38,8 +38,8 @@ div.sticky {
   width: 600px;
   height: 400px;
   background-color: lightgray;
-  flex-direction: row-reverse;
-  justify-content: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .item {
   width: 50px;
