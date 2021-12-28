@@ -82,12 +82,12 @@ footer {
 }
 
 .welcome {
+  margin-top: 85px;
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
   text-align: center;
   width: 100%;
-  z-index: 1;
 }
 
 .question {
