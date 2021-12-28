@@ -16,3 +16,15 @@ div.fixed {
   right: 20px;
   bottom: 20px;
 }
+div.absolute {
+  border: 3px solid yellow;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+div.sticky {
+  border: 3px solid brown;
+  position: sticky;
+  top: 20px;
+  left: 20px;
+}
