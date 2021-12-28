@@ -26,5 +26,10 @@ div.sticky {
   border: 3px solid brown;
   position: sticky;
   top: 20px;
-  left: 20px;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
 }
