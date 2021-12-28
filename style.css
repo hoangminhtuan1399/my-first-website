@@ -33,3 +33,17 @@ div.sticky {
 .bg-blue {
   background-color: blue;
 }
+.flex {
+  display: flex;
+  width: 600px;
+  height: 800px;
+  background-color: lightgray;
+  flex-direction: collumn-reverse;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
