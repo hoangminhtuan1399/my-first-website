@@ -1,50 +1,98 @@
 body {
-  height: 2000px;
+  background-color: #FFF;
+  margin: 0 auto;
 }
-div.static {
-  border: 3px solid blue;
-  position: static;
-}
-div.relative {
-  border: 3px solid green;
-  position: relative;
-  left: 20px;
-}
-div.fixed {
-  border: 3px solid red;
+
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
-}
-div.absolute {
-  border: 3px solid yellow;
-  position: absolute;
-  right: 50px;
-  bottom: 50px;
-}
-div.sticky {
-  border: 3px solid brown;
-  position: sticky;
   top: 20px;
 }
-.bg-red {
-  background-color: red;
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
 }
-.bg-blue {
-  background-color: blue;
+
+li {
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
-.flex {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  background-color: lightgray;
-  flex-direction: row;
-  justify-content: flex-start;
+
+li:hover {
+  color: #DBE9EE;
 }
-.item {
-  width: 50px;
-  height: 50px;
+
+h1 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
-  border: 1px solid black;
-  background-color: lightblue;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.question {
+  text-align: center;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
 }
