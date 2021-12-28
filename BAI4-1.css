@@ -9,9 +9,9 @@
 
 .item {
   display: flex;
-  width: 5%;
+  justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: lightblue;
   text-align: center;
 }
 
@@ -19,8 +19,8 @@ a {
   text-decoration: none;
   color: white;
   display: inline-block;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .item:hover{
