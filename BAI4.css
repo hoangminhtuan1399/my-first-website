@@ -74,7 +74,7 @@ p {
 }
 
 footer {
-  width: 100%;
+  width: 100vw;
   background-color: #DBE9EE;
   text-align: center;
   position: fixed;
