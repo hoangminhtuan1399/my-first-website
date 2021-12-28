@@ -36,9 +36,10 @@ div.sticky {
 .flex {
   display: flex;
   width: 600px;
-  height: 800px;
+  height: 400px;
   background-color: lightgray;
-  flex-direction: collumn-reverse;
+  flex-direction: row-reverse;
+  justify-content: stretch;
 }
 .item {
   width: 50px;
