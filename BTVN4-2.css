@@ -5,7 +5,9 @@ body {
 ul{
   height: 150px;
   width: 100%;
+  box-sizing: border-box;
   list-style-type: none;
+  margin: 0px;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,9 @@ li{
 .column-menu {
   width: 20%;
   float: left;
+}
+
+.column-content {
 }
 
 .header {
