@@ -2,17 +2,31 @@ body {
   width: 50vw;
 }
 
-ul{
-  list-style-type: none;
-}
-
 li{
   color: white;
-  background-color: blue;
+  background-color: #58d2ed;
+  padding: 10px;
 }
+
+.column-menu{
+  list-style-type: none;
+  float: left;
+}
+
+.clearfix {
+  margin 15px;
+}
+
 .header {
   background-color: gray;
   color: white;
   height: 80px;
+  padding: 15px 0px 15px 10px;
+}
+
+.footer {
+  background-color: gray;
+  color: white;
+  height: 50px;
   padding: 15px 0px 15px 10px;
 }
