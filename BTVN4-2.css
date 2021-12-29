@@ -3,26 +3,14 @@ body {
 }
 
 ul{
+  list-style-type: none;
   padding-left: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
 }
 
 li{
-  color: white;
   background-color: #58d2ed;
-  padding: 0px;
-}
-
-.column-menu{
-  list-style-type: none;
-  float: left;
-}
-
-.clearfix {
-  margin 15px;
+  color: white;
+  padding-left: 5px;
 }
 
 .header {
