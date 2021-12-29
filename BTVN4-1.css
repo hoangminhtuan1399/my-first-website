@@ -1,18 +1,13 @@
 code {
+  width: 100%
+    
   background: #2db34a;
   border-radius: 6px;
   color: #fff;
   padding: 24px 15px;
   text-align: center;
 }
-header,
-section,
-aside,
-footer {
-  margin: 0 1.5% 24px 1.5%;
-}
-section {
-}
-footer {
-  margin-bottom: 0;
+header {
+  width: 100%;
+  height: 100px;
 }
