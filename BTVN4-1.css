@@ -2,7 +2,6 @@ code {
   background: #2db34a;
   border-radius: 6px;
   color: #fff;
-  padding: 24px 15px;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -14,8 +13,11 @@ header {
   flex-direction: row;
   align-items: stretch;
 }
+section {
+  width: 30%;
+}
 #section-container {
   display: flex;
-  justify-content: 
+  justify-content: space-between;
 }
 
