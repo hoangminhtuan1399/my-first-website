@@ -47,6 +47,7 @@ body > footer {
    */
 .card-row {
   display: grid;
+  grid-template-column: auto auto;
 }
 
 .card {
